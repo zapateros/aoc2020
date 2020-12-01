@@ -1,7 +1,7 @@
 # Problem 1 ----
 # I couldn't find the function I needed fast (the same function I used about a million times already) so I panicked and turned 
 # to making a matrix for part 1 and an array for part 2
-# After I solved it and relaxed a bit, I found the relevant expand.grid function so I rewrote my solution as it is significanly more elegant
+# After I solved it and relaxed a bit, I found the relevant expand.grid function so I rewrote my solution as it is significantly more elegant
 
 fl <- as.numeric(readLines("input_day_01.txt"))
 # Part 1
