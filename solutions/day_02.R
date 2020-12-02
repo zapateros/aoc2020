@@ -1,4 +1,4 @@
-# There is probably a regex oneliner but I hate regex
+# There is probably a regex oneliner but regex doesn't like me
 fl <- readLines("input_day_02.txt")
 ls <- strsplit(gsub("-|:", " ", fl), " ")
 # Part 1
