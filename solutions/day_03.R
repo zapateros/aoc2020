@@ -1,6 +1,6 @@
 # Obviously a nice for-loop or an apply function should do the trick here, but I wanted to 
 # solve it with a numeric series and a vector; turned out pretty neat
-fl  <- readLines("C:/Users/paul/Documents/r-projects/aoc 2020/input/input_day_03.txt")
+fl  <- readLines("input_day_03.txt")
 spl <- strsplit(fl, "")
 l   <- length(spl)
 w   <- length(unlist(spl[1]))
