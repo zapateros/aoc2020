@@ -1,4 +1,4 @@
-fl <- readLines("C:/Users/paul/Documents/r-projects/aoc 2020/input/input_day_04.txt")
+fl <- readLines("input_day_04.txt")
 fl[fl == ""] <- "/"
 passports <- trimws(unlist(strsplit(paste0(fl, collapse =" "), "/")))
 fields <- c("byr", "iyr", "eyr", "hgt", "hcl", "ecl", "pid", "cid")
