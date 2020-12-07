@@ -1,7 +1,7 @@
 # Certainly not my cleanest solution. For the first part I used a simple shortest path algorithm
 # For the second part I was looking for a simple solution as it's still quite early this year. However,
 # I couldn't think of a simple trick so I did a recursive. Maybe I'll clean up this code later. Probably not
-fl    <- readLines("input_day_07.txt")
+fl    <- readLines("C:/Users/paul/Documents/r-projects/aoc 2020/input/input_day_07.txt")
 fl1   <- gsub(" bags| bag|\\.", "", fl)
 rules <- unlist(strsplit(fl1, "\n"))
 
@@ -24,28 +24,24 @@ pos <- sapply(bags, function(x){
   paths <- all_shortest_paths(gr, from = x, to = "shiny gold")
   length(paths$res)
 })
-
 result <- sum(pos > 0) - 1
 cat("Day 7 Part 1:", result)
 
 # Part 2
 dt  <- dt[!dt$bags_in == "no other",]
 num <- 0
-rec <- function(z, x, m){
+rec <- function(x, m){
   y <- as.character(dt$bags_in[dt$bag_top == x])
-  k <- as.numeric(dt$amount[dt$bag_top == x])
-  a <- z
+  k <- as.numeric(dt$amount[dt$bag_top == x]) 
   if(length(y) > 0){
     for(i in 1:length(y)){
       n <- m * k[i]
-      b <- c(a, y[i])
-      rec(b, y[i], n)
+      rec(y[i], n)
       num <<- num + n
     }
   }
 }
-path  <- NULL
 start <- "shiny gold"
-rec(path, start, 1)
+rec(start, 1)
 result <- num
 cat("Day 7 Part 2:", result)
