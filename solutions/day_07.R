@@ -1,7 +1,7 @@
 # Certainly not my cleanest solution. For the first part I used a simple shortest path algorithm
 # For the second part I was looking for a simple solution as it's still quite early this year. However,
 # I couldn't think of a simple trick so I did a recursive. Maybe I'll clean up this code later. Probably not
-fl    <- readLines("C:/Users/paul/Documents/r-projects/aoc 2020/input/input_day_07.txt")
+fl    <- readLines("input_day_07.txt")
 fl1   <- gsub(" bags| bag|\\.", "", fl)
 rules <- unlist(strsplit(fl1, "\n"))
 
