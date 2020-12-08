@@ -1,4 +1,4 @@
-# Again not a very clean solution. Struggeling to set variables in functions and stopping a while loop from a function
+# My solutions are getting uglier and uglier. Struggeling to set variables in functions and stopping a while loop from a function
 fl  <- readLines("input_day_08.txt")
 n   <- length(fl)
 end <- 0
@@ -20,7 +20,6 @@ run <- function(instr, problem){
       if(problem == 1){
         return(a)
       }else{
-        
         return(a)
       }
       break
