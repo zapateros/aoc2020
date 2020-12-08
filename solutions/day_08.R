@@ -1,4 +1,7 @@
-# My solutions are getting uglier and uglier. Struggeling to set variables in functions and stopping a while loop from a function
+# My solutions are getting uglier and uglier. 
+# Today I was struggling with making a function that can be used for both parts. Then I coulnd't think of an elegant solution to stop the while loop (in part 2)
+# from within a function, other than using a global variable. I learned you should think twice before using those.
+# Now I'm looking at the function again, I see the part that makes the function usable for both problems is almost as large as the rest of the function. Makes you think
 fl  <- readLines("input_day_08.txt")
 n   <- length(fl)
 end <- 0
