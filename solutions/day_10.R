@@ -1,6 +1,6 @@
 # I already had a hunch a recursive function would help me for part 2 so I tried to find a numeric solution or some other trick
-# When I couldn't find one quickly, I tried the recursion and saw it (indeed) would take forever. When I wrote out the first example series (in order),
-# it was pretty clear how to solve it
+# When I couldn't find one quickly, I tried the recursion and saw it (indeed) would take forever. When I wrote down the first example series (in order),
+# it was pretty clear how to solve it easily
 fl  <- readLines("input_day_10.txt")
 fln <- as.numeric(fl)
 or  <- fln[order(fln)]
