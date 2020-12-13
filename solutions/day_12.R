@@ -1,4 +1,5 @@
 # This one wouldn't be too hard if I didn't mess up my axes for part 2. I use a negative north y axis so rotations should be adjusted for that
+# Also, obviously a lot of hardcoded stuff could be rewritten but for now it's okay
 fl    <- readLines("input_day_12.txt") 
 dir   <- 1
 x     <- c(1, 0, -1, 0)
