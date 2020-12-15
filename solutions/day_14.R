@@ -1,4 +1,4 @@
-# I'm sorry for this ugly solution. It's not even fast
+# I'm sorry for this unsightly solution. It's not even fast
 fl <- readLines("input_day_14.txt") 
 
 # Part 1
