@@ -8,17 +8,17 @@ fl <- readLines("input_day_21.txt")
 # Part 1
 allergens      <- lapply(gsub(".*contains |\\)|,","",  fl), function(x){unlist(strsplit(x, " "))})
 ingredients    <- lapply(gsub(" \\(contains.*","",  fl), function(x){unlist(strsplit(x, " "))})
-ingredients_bu <- ingredients
+ul_ingredients <- unlist(ingredients)
+l_ing          <- length(ingredients)
 uni_all        <- unique(unlist(allergens, " "))
-uni_ing        <- unique(unlist(ingredients, " "))
 n              <- length(uni_all)
 known          <- setNames(vector("list", length = n), uni_all)
 
 i <- 1
-while(TRUE){
+while(length(unlist(known)) != n){
   rec <- allergens[[i]]
   if(length(rec) == 1){
-    rel_inds <- which(sapply(allergens, function(x){ any(x == rec)}))
+    rel_inds <- which(sapply(allergens, function(x){any(x == rec)}))
     for(j in rel_inds){
       y <- ingredients[[i]] %in% ingredients[[j]]
       ingredients[[i]] <- ingredients[[i]][y]
@@ -40,19 +40,10 @@ while(TRUE){
       }
     }
   }
-  if(length(unlist(known)) == n){
-    break
-  }
-  i <- i + 1
-  if(i > length(ingredients)){
-    i <- 1
-  }
+  i <- i %% l_ing  + 1
 }
-t <- unlist(ingredients_bu)
-xx <- sapply(unlist(known), function(x){
-  sum(t == x)
-})
-result <- length(t) - sum(xx)
+xx     <- sapply(unlist(known), function(x){sum(ul_ingredients == x)})
+result <- length(ul_ingredients) - sum(xx)
 cat("Day 21 Part 1:", result)
 
 # Part 2
