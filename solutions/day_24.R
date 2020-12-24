@@ -37,7 +37,7 @@ black <- names(z[z == TRUE])
 sm    <- cbind(diry, dirx)
 
 it <- 0
-while(it < 10){
+while(it < 100){
   cat(paste(Sys.time()), ":", it, ":", length(black), "\n")
   nbs <- NULL
   for(i in 1:length(black)){
