@@ -22,10 +22,10 @@ For day 21 my grep function didn't really help me, as 'grepping' 'nuts' also cou
 
 I think these lines are exactly summarizing my AoC2020:
 
-"After I solved it and relaxed a bit, I found the relevant expand.grid function so I rewrote my solution as it is significantly more elegant" ~Day 1
-"There is probably a regex oneliner but regex doesn't like me" ~Day 2
-"..solve it with a numeric series and a vector; turned out pretty neat" ~Day 3
-"I couldn't think of a simple trick so I did a recursive. Maybe I'll clean up this code later. Probably not" ~Day 7
+- "After I solved it and relaxed a bit, I found the relevant expand.grid function so I rewrote my solution as it is significantly more elegant" ~Day 1
+- "There is probably a regex oneliner but regex doesn't like me" ~Day 2
+- "..solve it with a numeric series and a vector; turned out pretty neat" ~Day 3
+- "I couldn't think of a simple trick so I did a recursive. Maybe I'll clean up this code later. Probably not" ~Day 7
 "My solutions are getting uglier and uglier." ~Day 8
 "If they work, they work! Maybe I'll clean them up later. We both know I won't" ~Day 11
 "I'm sorry for this unsightly solution. It's not even fast" ~Day 14
