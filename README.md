@@ -5,7 +5,7 @@ It was the third year in a row I participated in AoC. I really had a blast solvi
 This year I tried not to look at any information that could directly or indirectly help me (like the forum or even the leaderboard, as solving times could give things away). 
 
 I got some commentary that my code is not very readable this year. That's very true as that was not my purpose. This year I started trying to solve the problems
-in the most elegant way possible; conceptually, not readable. I didn't spend energy on variable names or comments. When the problems got a bit harder and my agenda filled up, my 
+in the most elegant way possible; conceptually, not necessarily readable. I didn't spend energy on variable names or comments. When the problems got a bit harder and my agenda filled up, my 
 new goal was to just solve the problems as quick and dirty as possible so the solutions got less readable over time I guess.
 
 Day 19 was the first one I didn't really knew how to solve it. As I thought bruteforcing was absolutely no option, I tried to really understand the problem. I tried many
