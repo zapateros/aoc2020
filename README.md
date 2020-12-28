@@ -26,12 +26,12 @@ I think these lines are exactly summarizing my AoC2020:
 - "There is probably a regex oneliner but regex doesn't like me" ~Day 2
 - "..solve it with a numeric series and a vector; turned out pretty neat" ~Day 3
 - "I couldn't think of a simple trick so I did a recursive. Maybe I'll clean up this code later. Probably not" ~Day 7
-"My solutions are getting uglier and uglier." ~Day 8
-"If they work, they work! Maybe I'll clean them up later. We both know I won't" ~Day 11
-"I'm sorry for this unsightly solution. It's not even fast" ~Day 14
-"I was constantly in a split between trying to find another solution or continue debugging." ~Day 21
-"I bruteforced part 2 in C#. It took about 2 hours. Also I didn't clean the code yet but here is the code that gives you part 2 and part 1 somewhere all along." ~Day 23
-"The hardest part of today was to write every step concisely and think of variable names" ~ Day 20
-"When I didn't completely understood this problem this was the worst one of this year; now I get it, it is one of the best. With this one I also complete AoC2020!" ~ Day 19
+- "My solutions are getting uglier and uglier." ~Day 8
+- "If they work, they work! Maybe I'll clean them up later. We both know I won't" ~Day 11
+- "I'm sorry for this unsightly solution. It's not even fast" ~Day 14
+- "I was constantly in a split between trying to find another solution or continue debugging." ~Day 21
+- "I bruteforced part 2 in C#. It took about 2 hours. Also I didn't clean the code yet but here is the code that gives you part 2 and part 1 somewhere all along." ~Day 23
+- "The hardest part of today was to write every step concisely and think of variable names" ~ Day 20
+- "When I didn't completely understood this problem this was the worst one of this year; now I get it, it is one of the best. With this one I also complete AoC2020!" ~ Day 19
 
 Perhaps it doesn't show, but I truly had fun again this year and now I'm done I'm already missing it. On to next year!
